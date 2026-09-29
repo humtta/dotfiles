@@ -24,3 +24,6 @@ function symlink() {
 	mkdir -p "$(dirname "${target_path}")"
 	ln -fns "${source_path}" "${target_path}"
 }
+
+# Crush
+symlink 'crush/crush.sh' "${HOME}/.config/crush/crushrc"
