@@ -25,5 +25,8 @@ function symlink() {
 	ln -fns "${source_path}" "${target_path}"
 }
 
+# Git
+symlink 'git/git.ini' "${HOME}/.config/git/config"
+
 # Crush
 symlink 'crush/crush.sh' "${HOME}/.config/crush/crushrc"
