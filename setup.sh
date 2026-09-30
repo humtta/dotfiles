@@ -34,10 +34,10 @@ done
 sudo fc-cache -f
 
 # Git
-symlink 'git/git.ini' "${HOME}/.config/git/config"
+symlink 'git/config.ini' "${HOME}/.config/git/config"
 
 # Crush
-symlink 'crush/crush.sh' "${HOME}/.config/crush/crushrc"
+symlink 'crush/config.sh' "${HOME}/.config/crush/crushrc"
 
 # Foot
-symlink 'foot/foot.ini' "${HOME}/.config/foot/foot.ini"
+symlink 'foot/config.ini' "${HOME}/.config/foot/foot.ini"
