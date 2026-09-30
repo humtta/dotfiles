@@ -25,6 +25,14 @@ function symlink() {
 	ln -fns "${source_path}" "${target_path}"
 }
 
+# Install fonts
+for font in fonts/*.zip; do
+	font_name="$(basename "${font}" .zip)"
+	sudo unzip -o "${font}" -d "/usr/share/fonts/${font_name}"
+done
+
+sudo fc-cache -f
+
 # Git
 symlink 'git/git.ini' "${HOME}/.config/git/config"
 
