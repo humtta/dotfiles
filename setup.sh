@@ -33,6 +33,9 @@ done
 
 sudo fc-cache -f
 
+# Fish
+symlink 'fish/config.fish' "${HOME}/.config/fish/config.fish"
+
 # Git
 symlink 'git/config.ini' "${HOME}/.config/git/config"
 
