@@ -10,10 +10,10 @@ config_dir="${root_dir}/config"
 
 # Usage: symlink SOURCE TARGET
 #
-# Creates a symlink at TARGET pointing to SOURCE. SOURCE must be relative to the
-# config directory. Anything that already exists in TARGET will be overwritten.
+# Creates a symlink at TARGET pointing to SOURCE. Anything that already exists
+# in TARGET will be overwritten.
 function symlink() {
-	local source_path="${config_dir}/${1}"
+	local source_path="${1}"
 	local target_path="${2}"
 
 	if [[ ! -e "${source_path}" ]]; then
@@ -34,13 +34,13 @@ done
 sudo fc-cache -f
 
 # Fish
-symlink 'fish/config.fish' "${HOME}/.config/fish/config.fish"
+symlink "${config_dir}/fish/config.fish" "${HOME}/.config/fish/config.fish"
 
 # Git
-symlink 'git/config.ini' "${HOME}/.config/git/config"
+symlink "${config_dir}/git/config.ini" "${HOME}/.config/git/config"
 
 # Crush
-symlink 'crush/config.sh' "${HOME}/.config/crush/crushrc"
+symlink "${config_dir}/crush/config.sh" "${HOME}/.config/crush/crushrc"
 
 # Foot
-symlink 'foot/config.ini' "${HOME}/.config/foot/foot.ini"
+symlink "${config_dir}/foot/config.ini" "${HOME}/.config/foot/foot.ini"
