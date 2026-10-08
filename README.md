@@ -16,6 +16,10 @@ Then, run the setup script from the cloned directory:
 ./setup.sh
 ```
 
+The setup script creates symbolic links to the files in this repository. If you
+move or rename the cloned directory, these links will break. To fix them, run
+the setup script again.
+
 ## License
 
 This project is licensed under the [MIT License].
