@@ -5,6 +5,8 @@ set -eo pipefail
 repo_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 dotfiles_dir="${repo_dir}/dotfiles"
 
+config_dir="${HOME}/.config"
+
 # Usage: symlink SOURCE TARGET
 #
 # Creates a symlink at TARGET pointing to SOURCE. Anything that already exists
@@ -37,10 +39,10 @@ git clone https://github.com/humtta/skills "${skills_repo_dir}"
 bash "${skills_repo_dir}/setup.sh"
 
 # Fish
-symlink "${dotfiles_dir}/fish/config.fish" "${HOME}/.config/fish/config.fish"
+symlink "${dotfiles_dir}/fish/config.fish" "${config_dir}/fish/config.fish"
 
 # Git
-symlink "${dotfiles_dir}/git/config.ini" "${HOME}/.config/git/config"
+symlink "${dotfiles_dir}/git/config.ini" "${config_dir}/git/config"
 
 # Foot
-symlink "${dotfiles_dir}/foot/config.ini" "${HOME}/.config/foot/foot.ini"
+symlink "${dotfiles_dir}/foot/config.ini" "${config_dir}/foot/foot.ini"
