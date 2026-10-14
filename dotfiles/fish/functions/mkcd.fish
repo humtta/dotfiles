@@ -4,7 +4,7 @@ function mkcd -d "Create and navigate to a directory"
         return 1
     end
 
-    set path $argv[1]
+    set -l path $argv[1]
 
     mkdir -p $path
     and cd $path
