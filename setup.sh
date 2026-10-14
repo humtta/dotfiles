@@ -2,10 +2,7 @@
 
 set -eo pipefail
 
-# Project root directory
 repo_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
-# Configuration files directory
 dotfiles_dir="${repo_dir}/dotfiles"
 
 # Usage: symlink SOURCE TARGET
