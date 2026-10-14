@@ -40,5 +40,5 @@ bash "${skills_repo_dir}/setup.sh"
 
 # Symlink configuration files
 symlink "${dotfiles_dir}/fish/config.fish" "${config_dir}/fish/config.fish"
-symlink "${dotfiles_dir}/git/config.ini" "${config_dir}/git/config"
 symlink "${dotfiles_dir}/foot/config.ini" "${config_dir}/foot/foot.ini"
+symlink "${dotfiles_dir}/git/config.ini" "${config_dir}/git/config"
