@@ -6,7 +6,7 @@ set -eo pipefail
 root_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Configuration files directory
-config_dir="${root_dir}/config"
+config_dir="${root_dir}/dotfiles"
 
 # Usage: symlink SOURCE TARGET
 #
