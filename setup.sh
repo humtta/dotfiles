@@ -42,8 +42,5 @@ symlink "${dotfiles_dir}/fish/config.fish" "${HOME}/.config/fish/config.fish"
 # Git
 symlink "${dotfiles_dir}/git/config.ini" "${HOME}/.config/git/config"
 
-# Crush
-symlink "${dotfiles_dir}/crush/config.sh" "${HOME}/.config/crush/crushrc"
-
 # Foot
 symlink "${dotfiles_dir}/foot/config.ini" "${HOME}/.config/foot/foot.ini"
