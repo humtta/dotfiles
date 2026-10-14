@@ -6,7 +6,7 @@ set -eo pipefail
 root_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Configuration files directory
-config_dir="${root_dir}/dotfiles"
+dotfiles_dir="${root_dir}/dotfiles"
 
 # Usage: symlink SOURCE TARGET
 #
@@ -40,13 +40,13 @@ git clone https://github.com/humtta/skills "${skills_repo_dir}"
 bash "${skills_repo_dir}/setup.sh"
 
 # Fish
-symlink "${config_dir}/fish/config.fish" "${HOME}/.config/fish/config.fish"
+symlink "${dotfiles_dir}/fish/config.fish" "${HOME}/.config/fish/config.fish"
 
 # Git
-symlink "${config_dir}/git/config.ini" "${HOME}/.config/git/config"
+symlink "${dotfiles_dir}/git/config.ini" "${HOME}/.config/git/config"
 
 # Crush
-symlink "${config_dir}/crush/config.sh" "${HOME}/.config/crush/crushrc"
+symlink "${dotfiles_dir}/crush/config.sh" "${HOME}/.config/crush/crushrc"
 
 # Foot
-symlink "${config_dir}/foot/config.ini" "${HOME}/.config/foot/foot.ini"
+symlink "${dotfiles_dir}/foot/config.ini" "${HOME}/.config/foot/foot.ini"
