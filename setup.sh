@@ -38,11 +38,7 @@ skills_repo_dir="${repo_dir}/../skills"
 git clone https://github.com/humtta/skills "${skills_repo_dir}"
 bash "${skills_repo_dir}/setup.sh"
 
-# Fish
+# Symlink configuration files
 symlink "${dotfiles_dir}/fish/config.fish" "${config_dir}/fish/config.fish"
-
-# Git
 symlink "${dotfiles_dir}/git/config.ini" "${config_dir}/git/config"
-
-# Foot
 symlink "${dotfiles_dir}/foot/config.ini" "${config_dir}/foot/foot.ini"
