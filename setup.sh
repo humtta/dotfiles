@@ -33,6 +33,12 @@ done
 
 sudo fc-cache -f
 
+# Install agent skills
+skills_repo_dir="${root_dir}/../skills"
+
+git clone https://github.com/humtta/skills "${skills_repo_dir}"
+bash "${skills_repo_dir}/setup.sh"
+
 # Fish
 symlink "${config_dir}/fish/config.fish" "${HOME}/.config/fish/config.fish"
 
