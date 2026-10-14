@@ -3,10 +3,10 @@
 set -eo pipefail
 
 # Project root directory
-root_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+repo_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Configuration files directory
-dotfiles_dir="${root_dir}/dotfiles"
+dotfiles_dir="${repo_dir}/dotfiles"
 
 # Usage: symlink SOURCE TARGET
 #
@@ -34,7 +34,7 @@ done
 sudo fc-cache -f
 
 # Install agent skills
-skills_repo_dir="${root_dir}/../skills"
+skills_repo_dir="${repo_dir}/../skills"
 
 git clone https://github.com/humtta/skills "${skills_repo_dir}"
 bash "${skills_repo_dir}/setup.sh"
