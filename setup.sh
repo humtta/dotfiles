@@ -23,7 +23,7 @@ function symlink() {
 }
 
 # Install fonts
-for font in fonts/*.zip; do
+for font in "${repo_dir}"/fonts/*.zip; do
 	font_name="$(basename "${font}" .zip)"
 	sudo unzip -o "${font}" -d "/usr/share/fonts/${font_name}"
 done
