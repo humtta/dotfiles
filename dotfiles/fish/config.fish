@@ -4,3 +4,4 @@ if status is-interactive
 end
 
 fish_add_path /home/humtta/.local/bin
+fish_add_path /home/humtta/.opencode/bin
