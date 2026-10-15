@@ -40,6 +40,7 @@ bash "${skills_repo_dir}/setup.sh"
 
 # Symlink configuration files
 symlink "${dotfiles_dir}/fish/config.fish"          "${config_dir}/fish/config.fish"
+symlink "${dotfiles_dir}/fish/functions/cdgit.fish" "${config_dir}/fish/functions/cdgit.fish"
 symlink "${dotfiles_dir}/fish/functions/cdtmp.fish" "${config_dir}/fish/functions/cdtmp.fish"
 symlink "${dotfiles_dir}/fish/functions/mkcd.fish"  "${config_dir}/fish/functions/mkcd.fish"
 symlink "${dotfiles_dir}/foot/config.ini"           "${config_dir}/foot/foot.ini"
