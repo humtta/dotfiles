@@ -4,6 +4,14 @@ My personal configuration files for Linux.
 
 ## Installation
 
+> [!NOTE]
+> Some configuration files use hardcoded paths under `/home/humtta`. If your
+> home directory is different, create a symbolic link that points to it:
+>
+> ```sh
+> sudo ln -s "$HOME" /home/humtta
+> ```
+
 First, clone the repository where you intend to keep it:
 
 ```sh
