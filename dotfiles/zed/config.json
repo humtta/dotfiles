@@ -4,7 +4,9 @@
   "disable_ai": true,
 
   "project_panel": {
-    "dock": "left"
+    "dock": "left",
+
+    "hide_root": true
   },
 
   "title_bar": {
