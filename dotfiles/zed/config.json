@@ -20,6 +20,10 @@
     "hide_gitignore": true
   },
 
+  "file_scan_exclusions": [
+    "**/.devbox"
+  ],
+
   "title_bar": {
     "show_sign_in": false,
     "show_user_menu": false
