@@ -6,7 +6,8 @@
   "project_panel": {
     "dock": "left",
 
-    "hide_root": true
+    "hide_root": true,
+    "hide_hidden": true
   },
 
   "title_bar": {
