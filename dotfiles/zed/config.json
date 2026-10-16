@@ -1,6 +1,11 @@
 {
   "theme": "Ayu Dark",
 
+  "terminal": {
+    "cursor_shape": "bar",
+    "blinking": "on"
+  },
+
   "disable_ai": true,
 
   "project_panel": {
