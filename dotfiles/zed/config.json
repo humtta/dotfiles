@@ -17,7 +17,7 @@
     "dock": "left",
 
     "hide_root": true,
-    "hide_hidden": true
+    "hide_gitignore": true
   },
 
   "title_bar": {
