@@ -1,0 +1,36 @@
+{
+  "theme": "Ayu Dark",
+
+  "disable_ai": true,
+
+  "project_panel": {
+    "dock": "left"
+  },
+
+  "title_bar": {
+    "show_sign_in": false,
+    "show_user_menu": false
+  },
+
+  "tab_bar": {
+    "show_nav_history_buttons": false,
+    "show_tab_bar_buttons": false
+  },
+
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+
+  "global_lsp_settings": { "button": false },
+  "diagnostics": { "button": false },
+  "outline_panel": { "button": false },
+  "collaboration_panel": { "button": false },
+  "git_panel": { "button": false },
+
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000
+    }
+  }
+}

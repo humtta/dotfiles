@@ -45,3 +45,4 @@ symlink "${dotfiles_dir}/fish/functions/cdtmp.fish" "${config_dir}/fish/function
 symlink "${dotfiles_dir}/fish/functions/mkcd.fish"  "${config_dir}/fish/functions/mkcd.fish"
 symlink "${dotfiles_dir}/foot/config.ini"           "${config_dir}/foot/foot.ini"
 symlink "${dotfiles_dir}/git/config.ini"            "${config_dir}/git/config"
+symlink "${dotfiles_dir}/zed/config.json"           "${config_dir}/zed/settings.json"
