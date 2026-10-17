@@ -1,7 +1,8 @@
 {
   "theme": "Flexoki Dark",
-
   "buffer_font_size": 14,
+
+  "disable_ai": true,
 
   "auto_install_extensions": {
     "flexoki-themes": true
@@ -14,8 +15,6 @@
     "cursor_shape": "bar",
     "blinking": "on"
   },
-
-  "disable_ai": true,
 
   "project_panel": {
     "dock": "left",
@@ -49,9 +48,5 @@
   "collaboration_panel": { "button": false },
   "git_panel": { "button": false },
 
-  "autosave": {
-    "after_delay": {
-      "milliseconds": 1000
-    }
-  }
+  "autosave": { "after_delay": { "milliseconds": 1000 } }
 }
