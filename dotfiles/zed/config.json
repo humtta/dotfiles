@@ -1,6 +1,7 @@
 {
   "theme": "Flexoki Dark",
   "buffer_font_size": 14,
+  "show_whitespaces": "boundary",
 
   "disable_ai": true,
 
