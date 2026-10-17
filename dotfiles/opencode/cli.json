@@ -3,5 +3,10 @@
 
   "theme": {
     "name": "flexoki"
+  },
+
+  "cursor": {
+    "style": "line",
+    "blinking": true
   }
 }
