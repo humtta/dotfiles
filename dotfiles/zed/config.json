@@ -20,6 +20,7 @@
 
   "project_panel": {
     "dock": "left",
+    "starts_open": true,
 
     "hide_root": true,
     "hide_gitignore": true
