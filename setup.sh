@@ -41,6 +41,7 @@ bash "${skills_repo_dir}/setup.sh"
 # Symlink configuration files
 symlink "${dotfiles_dir}/fish/config.fish"                "${config_dir}/fish/config.fish"
 symlink "${dotfiles_dir}/fish/functions/fish_prompt.fish" "${config_dir}/fish/functions/fish_prompt.fish"
+symlink "${dotfiles_dir}/fish/functions/ghclone.fish"     "${config_dir}/fish/functions/ghclone.fish"
 symlink "${dotfiles_dir}/fish/functions/cdgit.fish"       "${config_dir}/fish/functions/cdgit.fish"
 symlink "${dotfiles_dir}/fish/functions/cdtmp.fish"       "${config_dir}/fish/functions/cdtmp.fish"
 symlink "${dotfiles_dir}/fish/functions/mkcd.fish"        "${config_dir}/fish/functions/mkcd.fish"
