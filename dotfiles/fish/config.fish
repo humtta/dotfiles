@@ -10,6 +10,11 @@ if status is-interactive
         abbr lo 'eza --icons --group-directories-first --oneline'
         abbr lt 'eza --icons --group-directories-first --tree'
     end
+
+    # Abbreviations for bat
+    if command -sq bat
+        abbr cat 'bat'
+    end
 end
 
 # Add to PATH
