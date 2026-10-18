@@ -39,6 +39,7 @@ git clone https://github.com/humtta/skills "${skills_repo_dir}"
 bash "${skills_repo_dir}/setup.sh"
 
 # Symlink configuration files
+symlink "${dotfiles_dir}/bat/config"                      "${config_dir}/bat/config"
 symlink "${dotfiles_dir}/fish/config.fish"                "${config_dir}/fish/config.fish"
 symlink "${dotfiles_dir}/fish/functions/fish_prompt.fish" "${config_dir}/fish/functions/fish_prompt.fish"
 symlink "${dotfiles_dir}/fish/functions/ghclone.fish"     "${config_dir}/fish/functions/ghclone.fish"
