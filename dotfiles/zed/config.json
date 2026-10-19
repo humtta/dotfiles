@@ -2,7 +2,7 @@
   "theme": "Flexoki Dark",
 
   "buffer_font_family": "Lilex",
-  "buffer_font_size": 14,
+  "buffer_font_size": 15,
 
   "show_whitespaces": "boundary",
   "soft_wrap": "editor_width",
@@ -15,7 +15,7 @@
 
   "terminal": {
     "font_family": "Lilex",
-    "font_size": 14,
+    "font_size": 15,
 
     "line_height": "comfortable",
 
