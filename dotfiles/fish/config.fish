@@ -18,6 +18,5 @@ if status is-interactive
 end
 
 # Add to PATH
-fish_add_path \
-    /home/humtta/.local/bin \
-    /home/humtta/.opencode/bin
+fish_add_path /home/humtta/.local/bin
+fish_add_path /home/humtta/.opencode/bin
