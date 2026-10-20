@@ -17,6 +17,11 @@ if status is-interactive
     end
 end
 
+# Enable direnv
+if command -sq direnv
+    direnv hook fish | source
+end
+
 # Add to PATH
 fish_add_path /home/humtta/.local/bin
 fish_add_path /home/humtta/.opencode/bin
