@@ -34,7 +34,9 @@
     "starts_open": true,
 
     "hide_root": true,
-    "hide_gitignore": true
+    "hide_gitignore": true,
+
+    "sort_order": "upper"
   },
 
   "file_scan_exclusions": [
