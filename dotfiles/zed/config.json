@@ -7,6 +7,10 @@
   "buffer_font_family": "Lilex",
   "buffer_font_size": 15,
 
+  "buffer_font_features": {
+    "calt": false
+  },
+
   "show_whitespaces": "boundary",
   "soft_wrap": "editor_width",
 
