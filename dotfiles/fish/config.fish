@@ -17,6 +17,11 @@ if status is-interactive
     end
 end
 
+# Enable true color support for micro
+if command -sq micro
+    set MICRO_TRUECOLOR 1
+end
+
 # Enable direnv
 if command -sq direnv
     direnv hook fish | source
