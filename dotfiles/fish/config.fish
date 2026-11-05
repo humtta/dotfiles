@@ -5,10 +5,10 @@ if status is-interactive
 
     # Abbreviations for eza
     if command -sq eza
-        abbr ls 'eza --icons --group-directories-first'
-        abbr ll 'eza --icons --group-directories-first --long --header'
-        abbr lo 'eza --icons --group-directories-first --oneline'
-        abbr lt 'eza --icons --group-directories-first --tree'
+        abbr ls 'eza --group-directories-first'
+        abbr ll 'eza --group-directories-first --long --header'
+        abbr lo 'eza --group-directories-first --oneline'
+        abbr lt 'eza --group-directories-first --tree'
     end
 
     # Abbreviations for bat
