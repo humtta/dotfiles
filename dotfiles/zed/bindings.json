@@ -1,0 +1,8 @@
+[
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-p": ["terminal::SendKeystroke", "ctrl-p"]
+    }
+  }
+]

@@ -54,3 +54,4 @@ symlink "${dotfiles_dir}/micro/themes/flexoki-dark.micro" "${config_dir}/micro/c
 symlink "${dotfiles_dir}/opencode/config.json"            "${config_dir}/opencode/opencode.json"
 symlink "${dotfiles_dir}/opencode/cli.json"               "${config_dir}/opencode/cli.json"
 symlink "${dotfiles_dir}/zed/config.json"                 "${config_dir}/zed/settings.json"
+symlink "${dotfiles_dir}/zed/bindings.json"               "${config_dir}/zed/keymap.json"
