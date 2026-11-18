@@ -3,6 +3,9 @@ if status is-interactive
     bind ctrl-h backward-kill-word
     bind ctrl-delete kill-word
 
+    # Colors
+    set fish_color_comment --italics gray
+
     # Abbreviations for eza
     if command -sq eza
         abbr ls 'eza --group-directories-first'
