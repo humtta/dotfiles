@@ -1,6 +1,15 @@
 {
   "theme": "Flexoki Dark",
 
+  "theme_overrides": {
+    "Flexoki Dark": {
+      "syntax": {
+        "comment": { "font_style": "italic" },
+        "comment.doc": { "font_style": "italic" }
+      }
+    }
+  },
+
   "ui_font_family": "IBM Plex Sans",
   "ui_font_size": 15,
 
